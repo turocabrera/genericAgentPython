@@ -43,7 +43,8 @@ tools = [buscar_en_excel]
 # 3. MODELO GENERATIVO Y MEMORIA
 # ==========================================
 llm = ChatOllama(
-    model="qwen2.5:7b",
+    #model="qwen2.5:7b",
+    model="llama3.2:3b",
     temperature=0.2
 )
 
